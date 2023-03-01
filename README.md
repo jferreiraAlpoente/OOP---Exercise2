@@ -21,4 +21,5 @@ Cada exercito e composto por uma variedade de criaturas com abilidades e caracte
 3. Cria uma class Army que contem uma `list<FantasyCreature>`. Esta class tem de implementar um metodo `Battle(Army A)`, que recebe como argumento outro obj do tipo `Army`, e calcula o vencedor da batalha utilizando logica algoritmica que tenha em conta as propriedades de cada criatura que compoe cada exercito.
 
 4. Cria um programa que gere 2 exercitos, inicie uma batalha utilizando o metodo `Battle()`. Este programa deve de imprimir quem foi o vencedor. 
+(Podes obtar por obter um metodo Battle() ja pre-feito, e aplicar o conceito de abstracao.)
 
