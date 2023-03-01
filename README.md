@@ -6,19 +6,19 @@ Cada exercito e composto por uma variedade de criaturas com abilidades e caracte
 
 ## Instrucoes:
 
-    1. Create a base class called FantasyCreature with the following properties:
-        * Name (string)
-        * Health (int)
-        * AttackPower (int)
-        * Defense (int)
+1. Cria uma class chamada FantasyCreature com as seguintes propriedades:
+    * Name (string)
+    * Health (int)
+    * AttackPower (int)
+    * Defense (int)
+2. Cria varias subclasses de FantasyCreature, cada uma com atributos unicos. Alguns exemplos:
+    * Dragon: Has a high attack power and health, can breathe fire
+    * Elf: Has high agility and speed, can shoot arrows
+    * Dwarf: Has high defense and health, can use a hammer
+    * Orc: Has high attack power, can use a battle axe
+    * Wizard: Has low health but high magic power, can cast spells
 
-    2. Create several subclasses of the FantasyCreature class, each with unique abilities and attributes. Some examples include:
-        * Dragon: Has a high attack power and health, can breathe fire
-        * Elf: Has high agility and speed, can shoot arrows
-        * Dwarf: Has high defense and health, can use a hammer
-        * Orc: Has high attack power, can use a battle axe
-        * Wizard: Has low health but high magic power, can cast spells
+3. Cria uma class Army que contem uma `list<FantasyCreature>`. Esta class tem de implementar um metodo `Battle(Army A)`, que recebe como argumento outro obj do tipo `Army`, e calcula o vencedor da batalha utilizando logica algoritmica que tenha em conta as propriedades de cada criatura que compoe cada exercito.
 
-    3. Create an Army class that contains a list of FantasyCreature objects. The Army class should have a method called Battle that takes another Army object as input and returns the winner based on algorithmic logic that considers the attributes and abilities of each creature in the armies.
+4. Cria um programa que gere 2 exercitos, inicie uma batalha utilizando o metodo `Battle()`. Este programa deve de imprimir quem foi o vencedor. 
 
-    4. Create a program that creates two armies, populates them with various FantasyCreature objects, and then initiates a battle using the Battle method from the Army class. The program should display the winner of the battle and the remaining health of each creature.
