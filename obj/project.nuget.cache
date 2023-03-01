@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YccZhOsfP/CN72dnSQLiSsIlH3RlLB2aqnm6WBbmcXL5RfTymeasFSt7RYtyfxrs3dwArWEVNshXYKX0vDKH4g==",
+  "success": true,
+  "projectFilePath": "/home/jf/Development/OOP - Exercise2/OOP - Exercise2.csproj",
+  "expectedPackageFiles": [
+    "/home/jf/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
